@@ -7,8 +7,9 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 <h1 style="text-align: center;">📄 HackMD</h1>
 
-<p style="text-align: center; font-style: italic">
-    <a href="https://hackmd.io" target="_blank">hackmd.io</a>
+<p style="text-align: center; 
+          font-style: italic;">
+    <a href="https://hackmd.io" target="_blank">hackmd.io </a>
 </p>
 
 # About
@@ -159,8 +160,10 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 #### Branches
 
+- Create new branch from HackMD
+    - New repositories without a `main` branch
+    - New feature branch in an existing repositiory
 - Sync with existing GitHub feature branches.
-- Create and push new GitHub feature branch.
 
 #### Push
 
@@ -170,6 +173,19 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 - Commit message
     - HackMD version name and description
     - Use a common commit message [style guide](https://docs.google.com/document/d/1W0pYNbK1a0teJDt96Jcli7RVEcaUpXpXoSKHbeX2VSs/edit#heading=h.xo83z7povj6l).
+- *Select file*: For HackMD books use a unique filename for the book index note.
+    - Important if the book index note has the same title as the first note listed in the content of the book index.
+    - E.g.
+        - Book index note for this guide: *hackmd-index.md*
+        - First note: *hackmd.md*
+    - Filename format
+        - Important for URLs, programmability, and command line compatibility
+        - Use lowercase and separate words with hyphens `-` instead of spaces ` `.
+        - Resources
+            - Google developer documentation style guide
+                - [Filenames and file types](https://developers.google.com/style/filenames)
+                - [Capitalization](https://developers.google.com/style/capitalization)
+            - [What technical reasons exist for not using space characters in file names?](https://superuser.com/questions/29111/what-technical-reasons-exist-for-not-using-space-characters-in-file-names) *by superuser.com*
 
 #### Pull
 
@@ -210,5 +226,11 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 - [HackMD API Book](https://hackmd.io/@docs/HackMD_API_Book/https%3A%2F%2Fhackmd.io%2F%40docs%2FHackMD_API_Book)
 - [HackMD Developer Portal](https://hackmd.io/@hackmd-api/developer-portal/)
+
+<div style="text-align: center;">
+    
+[![HackMD GitHub collaborate button](https://hackmd.io/TYaqasuxQTmjm8e9mrvMlg/badge)](https://github.com/AdamSHurwitz/hackmd-og)    
+
+</div>
 
 <p style="text-align: center; font-style: italic">This is not technical advice. Always read the official documentation and do your own research.</p>
