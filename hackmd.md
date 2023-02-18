@@ -23,9 +23,13 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 - Ethereum Foundation (EF)
     - Monthly EIPs Insights: [hackmd.io/@poojaranjan/EthereumImprovementProposalsInsight](https://hackmd.io/@poojaranjan/EthereumImprovementProposalsInsight)
     - AllCoreDevs bi-weekly updates: [hackmd.io/@timbeiko/acd](https://hackmd.io/@timbeiko/acd/)
+    - Private team: [notes.ethereum.org](https://notes.ethereum.org)
 - ConsenSys
     - What’s New in Eth2 series: [hackmd.io/@benjaminion](https://hackmd.io/@benjaminion)
-- [Vitalik Buterin](https://notes.ethereum.org/@vbuterin)
+- DAOHaus: [hackmd.io/@daohaus](https://hackmd.io/@daohaus)
+- Vitalik Buterin
+    - [hackmd.io/@vbuterin](https://hackmd.io/@vbuterin)
+    - [notes.ethereum.org/@vbuterin](https://notes.ethereum.org/@vbuterin)
 - [How I use HackMD in Open Source projects](https://hackmd.io/@hackmd/customer-stories/https%3A%2F%2Fhackmd.io%2F%40hackmd%2Fk8s-story)
 
 #### Team
@@ -38,12 +42,7 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 # Features
 
-## About
-
-- [Features](https://hackmd.io/c/tutorials/%2Fs%2Ffeatures)
-- Enterprise
-    - [hackmd.io/enterprise](https://hackmd.io/enterprise)
-    - [hackmd.io/pricing](https://hackmd.io/pricing)
+*See [Features](https://hackmd.io/c/tutorials/%2Fs%2Ffeatures)*
 
 ## Editor
 
@@ -61,6 +60,7 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 ## Share
 
+### Notes
 - Make sure an email is set to receive share invites 
     - Set an account email if your sign-in is through a third-party, e.g. GitHub, Twitter, Google, and etc.
     - Menu (Bottom-left button with username) > *Settings* > *Email*
@@ -70,6 +70,11 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 - For Books you must share each Note with contributors.
 - View shared notes: *My Workspace* ([hackmd.io/?nav=overview](https://hackmd.io/?nav=overview)) > *Collaborative Notes* ([hackmd.io/?nav=collab](https://hackmd.io/?nav=collab))
 - [Live Host a Collaborative Session](https://hackmd.io/c/tutorials/%2Fs%2Flive-hosting)
+
+### Teams
+
+- [Create and manage Team](https://hackmd.io/@docs/create-and-manage-team)
+- Team domain: Must be different than personal account domain.
 
 ## Publish
 
@@ -164,6 +169,8 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
     - New repositories without a `main` branch
     - New feature branch in an existing repositiory
 - Sync with existing GitHub feature branches.
+- Submit pull requests (PR) in GitHub to merge feature branches with the main and/or production branch(es).
+    - Delete the feature branch post-merge if the feature is complete: In the GitHub repository go to the branches tab > and select the trashcan button next to the feature branch to delete.
 
 #### Push
 
@@ -226,6 +233,24 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 - [HackMD API Book](https://hackmd.io/@docs/HackMD_API_Book/https%3A%2F%2Fhackmd.io%2F%40docs%2FHackMD_API_Book)
 - [HackMD Developer Portal](https://hackmd.io/@hackmd-api/developer-portal/)
+
+# Plans
+
+*See [hackmd.io/pricing](https://hackmd.io/pricing)*
+
+**Personal** – Free
+
+**Teams**
+- *See [Features > Share > Teams](#Teams)*
+- Public: Free
+- Private: Paid
+
+**Enterprise**
+- [hackmd.io/enterprise](https://hackmd.io/enterprise)
+- Access management
+    - Based on shared domain
+    - GitHub organization
+    - Approve-list
 
 <div style="text-align: center;">
     
