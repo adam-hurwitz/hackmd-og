@@ -1,5 +1,5 @@
 ---
-title: 📄 HackMD About and Features
+title: 📄 HackMD about and features
 tags: HackMD
 description: About HackMD and features
 image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
@@ -9,7 +9,7 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 <p style="text-align: center; 
           font-style: italic;">
-    <a href="https://hackmd.io" target="_blank">hackmd.io </a>
+    <a href="https://hackmd.io" target="_blank">hackmd.io</a>
 </p>
 
 # About
@@ -49,6 +49,7 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 - Create new page: [hackmd.io/new](https://hackmd.io/new)
 - Near instant updates to the published version
 - [Keyboard shortcuts for HackMD](https://hackmd.io/@docs/keyboard-shortcuts)
+    - Auto-format links: Highlight the text in the editor and then paste the link from the clipboard.
 - Spell check: [Understanding Your Editor > 19. Spell Check](https://hackmd.io/@codimd/understanding-your-editor#19-Spell-Check) *by CodiMD*
 - Test HackMD's version of Markdown vs. generic Markdown: View the markdown code in [Visual Studio Code (VS Code)](https://code.visualstudio.com/). 
 - Customize themes and styles with Markdown and save to a template.
@@ -58,7 +59,7 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
     - Use the same workflow while writing code.
     - Great for offline work.
 
-## Share
+## Collaborate
 
 ### Notes
 - Make sure an email is set to receive share invites 
@@ -73,8 +74,12 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 ### Teams
 
-- [Create and manage Team](https://hackmd.io/@docs/create-and-manage-team)
-- Team domain: Must be different than personal account domain.
+- *See [Create and manage Team](https://hackmd.io/@docs/create-and-manage-team)*
+- Team domain URL
+    - The Public URL is the same format as personal usernames, e.g. `hackmd.io/@teamname`.
+    - Must be different than personal account domain URL.
+- Invite users from outside the team: Use the [note share settings](#Notes).
+- Back up notes: Same download all option as a personal account under [settings](#Back-up-data)
 
 ## Publish
 
@@ -131,74 +136,8 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 ### GitHub
 
-#### About
-
-- [Sync a Note with GitHub](https://hackmd.io/s/link-with-github)
-- Encourage collaboration: [Add GitHub badge](https://hackmd.io/s/link-with-github#Add-GitHub-badge) to the HackMD note.
-
-#### Enable
-
-1. Set up GitHub permissions.
-
-    a. Make sure your HackMD email has GitHub access.
-
-    - GitHub account level email: Profile (Top-right button) > *Settings* > *Emails* > *Add email address*
-    
-        or
-    
-    - GitHub repository's permission settings: *Team admin*, *Team member*, or *Invitee admin*
-
-2. Link GitHub to HackMD.
-    
-    a. HackMD menu (Bottom-left button with username) > *Settings* > *Integration* > Select *Link with GitHub*.
-    
-    b. *HackMD Hub by HackMD would like permission to: ...* > Select *Authorize HackMD Hub*    
-    - Error for a user without access: `request to https://github.com/login/oauth/access_token failed, reason: read ECONNRESET`
-    
-    c. Manage GitHub [Hackmd Hub app](https://github.com/apps/hackmd-hub) access.
-
-3. Enable GitHub in a Note.
-
-    a. Note overflow menu (3 dots in the top-right) > *Versions and GitHub Sync* > *Pull from GitHub* or *Push to GitHub* > Select *Authorize more repos*
-    
-    b. *Install & Authorize HackMD Hub* > For enhanced security only authorize HackMD access for *Only select repositories* vs. *All repositories*. > Select *Install & Authorize*
-
-#### Branches
-
-- Create new branch from HackMD
-    - New repositories without a `main` branch
-    - New feature branch in an existing repositiory
-- Sync with existing GitHub feature branches.
-- Submit pull requests (PR) in GitHub to merge feature branches with the main and/or production branch(es).
-    - Delete the feature branch post-merge if the feature is complete: In the GitHub repository go to the branches tab > and select the trashcan button next to the feature branch to delete.
-
-#### Push
-
-- [Push to GitHub](https://hackmd.io/s/link-with-github#Push-to-GitHub)
-- Each [HackMD named version](#HackMD-named-versions) will push as a Git commit.
-    - HackMD auto-saved versions will not produce commits.
-- Commit message
-    - HackMD version name and description
-    - Use a common commit message [style guide](https://docs.google.com/document/d/1W0pYNbK1a0teJDt96Jcli7RVEcaUpXpXoSKHbeX2VSs/edit#heading=h.xo83z7povj6l).
-- *Select file*: For HackMD books use a unique filename for the book index note.
-    - Important if the book index note has the same title as the first note listed in the content of the book index.
-    - E.g.
-        - Book index note for this guide: *hackmd-index.md*
-        - First note: *hackmd.md*
-    - Filename format
-        - Important for URLs, programmability, and command line compatibility
-        - Use lowercase and separate words with hyphens `-` instead of spaces ` `.
-        - Resources
-            - Google developer documentation style guide
-                - [Filenames and file types](https://developers.google.com/style/filenames)
-                - [Capitalization](https://developers.google.com/style/capitalization)
-            - [What technical reasons exist for not using space characters in file names?](https://superuser.com/questions/29111/what-technical-reasons-exist-for-not-using-space-characters-in-file-names) *by superuser.com*
-
-#### Pull
-
-- [Pull from GitHub](https://hackmd.io/s/link-with-github#Pull-from-Github)
-- Can choose the branch to pull from
-- Can choose the portion of pulled branch revisions to merge into the HackMD note
+- *See [HackMD GitHub guide](https://hackmd.io/@openguide/hackmd-github)*
+- Two-way sync push and pull for all account types
 
 ### GitLab
 
@@ -207,14 +146,20 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 ## Security
 
-- Data encryption and storage
-    - [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security) encrypts the connection between the client and server.
-    - [AES-256](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption is used for data stored.
-    - Data is mostly stored on Amazon Web Services (AWS).
-    - *See [Is hackmd data encrypted in-transit and storage? #320](https://github.com/hackmdio/hackmd-io-issues/issues/320)*
-- Back up data
-    - Download all .md files: [Batch Download All Your Notes 📦](https://blog.hackmd.io/blog/2019/02/27/batch-download-all-your-notes)
-    - [How to export to PDF](https://hackmd.io/@docs/export-to-pdf#)
+#### Data encryption and storage
+
+- [Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security) encrypts the connection between the client and server.
+- [AES-256](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encryption is used for data stored.
+- Data is mostly stored on Amazon Web Services (AWS).
+- *See [Is hackmd data encrypted in-transit and storage? #320](https://github.com/hackmdio/hackmd-io-issues/issues/320)*
+
+#### Back up notes
+
+- Download books and projects
+    - Downloading the [GitHub](#GitHub) repository of notes maintains the book/project's file's organization.
+    - GitHub repository: *< > Code* button > Select *Download ZIP*
+- Download all .md files: [Batch Download All Your Notes 📦](https://blog.hackmd.io/blog/2019/02/27/batch-download-all-your-notes)
+- [How to export to PDF](https://hackmd.io/@docs/export-to-pdf#)
 
 ## Self-hosting
 
@@ -234,27 +179,9 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 - [HackMD API Book](https://hackmd.io/@docs/HackMD_API_Book/https%3A%2F%2Fhackmd.io%2F%40docs%2FHackMD_API_Book)
 - [HackMD Developer Portal](https://hackmd.io/@hackmd-api/developer-portal/)
 
-# Plans
-
-*See [hackmd.io/pricing](https://hackmd.io/pricing)*
-
-**Personal** – Free
-
-**Teams**
-- *See [Features > Share > Teams](#Teams)*
-- Public: Free
-- Private: Paid
-
-**Enterprise**
-- [hackmd.io/enterprise](https://hackmd.io/enterprise)
-- Access management
-    - Based on shared domain
-    - GitHub organization
-    - Approve-list
-
 <div style="text-align: center;">
     
-[![HackMD GitHub collaborate button](https://hackmd.io/TYaqasuxQTmjm8e9mrvMlg/badge)](https://github.com/AdamSHurwitz/hackmd-og)    
+[![HackMD GitHub collaborate button](https://hackmd.io/8mpmY5yTTdqO8Y-XYXzvEA/badge)](https://github.com/AdamSHurwitz/safedao-og) 
 
 </div>
 
