@@ -71,10 +71,21 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 #### Features
 
-- Edits sync automatically.
+- Edits made sync automatically.
     - Changes in HackMD app update in VsCode.
     - Saved changes in VsCode update in HackMD.
 - Quickly save files locally.
+
+#### Workflows
+
+A. Edit in HackMD web app.
+1. Save file locally in VsCode.
+2. Push updates to GitHub.
+
+B. Edit file locally in VsCode.
+1. Save file locally in VsCode.
+2. Push updates to GitHub.
+3. Pull updates from GitHub to HackMD web app.
 
 #### Resources
 
