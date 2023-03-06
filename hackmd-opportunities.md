@@ -19,6 +19,8 @@ Opportunities
 
 ## Editor
 
+### Web app
+
 - More shortcut/hotkey commands to handle Markdown generation (P1)
 - What you see is what you get (WYSIWYG) editor for Markdown (P1)
     - Great for beginner users to get started writing
@@ -27,6 +29,10 @@ Opportunities
     - Add new words to the spell checker dictionary (P1)
 - Offline web editor and/or desktop app (P2)
 - Import multiple .md files from local storage (P2)
+
+### Visual Studio Code (VS Code)
+
+- Edit HackMD team notes in VS Code (Currently view-only) (P1)
 
 ## Version control systems (VCS)
 

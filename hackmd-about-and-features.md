@@ -57,40 +57,40 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 - [How to Use Template](https://hackmd.io/s/how-to-use-template)
     - [Boost Productivity with Templates](https://blog.hackmd.io/blog/2019/04/08/boost-productivity-with-templates)
 
-### Visual Studio Code (VsCode)
+### Visual Studio Code (VS Code)
 
 #### About
 
-- HackMD integration with VSCode
+- HackMD integration with VS Code
 - Great for offline work and while working in other code bases.
 
 #### Setup
 
-1. Install [VSCode HackMD extension](https://marketplace.visualstudio.com/items?itemName=HackMD.vscode-hackmd).
+1. Install [VS Code HackMD extension](https://marketplace.visualstudio.com/items?itemName=HackMD.vscode-hackmd).
 2. Create a HackMD Access Token: [How to issue an API token](https://hackmd.io/@hackmd-api/developer-portal/https%3A%2F%2Fhackmd.io%2F%40hackmd-api%2Fhow-to-issue-an-api-token?utm_source=vscode-welcome&utm_medium=inline-cta)
 
 #### Features
 
 - Edits made sync automatically.
-    - Changes in HackMD app update in VsCode.
-    - Saved changes in VsCode update in HackMD.
+    - Changes in HackMD app update in VS Code.
+    - Saved changes in VS Code update in HackMD.
 - Quickly save files locally.
 
 #### Workflows
 
 A. Edit in HackMD web app.
-1. Save file locally in VsCode.
+1. Save file locally in VS Code.
 2. Push updates to GitHub.
 
-B. Edit file locally in VsCode.
-1. Save file locally in VsCode.
+B. Edit file locally in VS Code.
+1. Save file locally in VS Code.
 2. Push updates to GitHub.
 3. Pull updates from GitHub to HackMD web app.
 
 #### Resources
 
 - GitHub: [github.com/hackmdio/vscode-hackmd](https://github.com/hackmdio/vscode-hackmd#the-official-hackmd-markdown-vscode-extension)
-- Guide: [Visual Studio Code (VSCode)](https://docs.google.com/document/d/12PCGyhVT_XmfAEKUqbc6AhVcE-yrbEvsQVB0ZpFc8Bk/edit#heading=h.hpbsi2jnx2ku)
+- Guide: [Visual Studio Code (VS Code)](https://docs.google.com/document/d/12PCGyhVT_XmfAEKUqbc6AhVcE-yrbEvsQVB0ZpFc8Bk/edit#heading=h.hpbsi2jnx2ku)
 
 ## Collaborate
 
