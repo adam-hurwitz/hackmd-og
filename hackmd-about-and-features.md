@@ -46,6 +46,7 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 
 ## Editor
 
+### Web app
 - Create new page: [hackmd.io/new](https://hackmd.io/new)
 - Near instant updates to the published version
 - [Keyboard shortcuts for HackMD](https://hackmd.io/@docs/keyboard-shortcuts)
@@ -55,9 +56,30 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 - Customize themes and styles with Markdown and save to a template.
 - [How to Use Template](https://hackmd.io/s/how-to-use-template)
     - [Boost Productivity with Templates](https://blog.hackmd.io/blog/2019/04/08/boost-productivity-with-templates)
-- [VSCode integration](https://marketplace.visualstudio.com/items?itemName=HackMD.vscode-hackmd)
-    - Use the same workflow while writing code.
-    - Great for offline work.
+
+### Visual Studio Code (VsCode) integration
+
+#### About
+
+- Use the same workflow while writing code.
+- Great for offline work.
+
+#### Setup
+
+1. Install [VSCode HackMD extension](https://marketplace.visualstudio.com/items?itemName=HackMD.vscode-hackmd).
+2. Create a HackMD Access Token: [How to issue an API token](https://hackmd.io/@hackmd-api/developer-portal/https%3A%2F%2Fhackmd.io%2F%40hackmd-api%2Fhow-to-issue-an-api-token?utm_source=vscode-welcome&utm_medium=inline-cta)
+
+#### Features
+
+- Edits sync automatically.
+    - Changes in HackMD app update in VsCode.
+    - Saved changes in VsCode update in HackMD.
+- Quickly save files locally.
+
+#### Resources
+
+- GitHub: [github.com/hackmdio/vscode-hackmd](https://github.com/hackmdio/vscode-hackmd#the-official-hackmd-markdown-vscode-extension)
+- Guide: [Visual Studio Code (VSCode)](https://docs.google.com/document/d/12PCGyhVT_XmfAEKUqbc6AhVcE-yrbEvsQVB0ZpFc8Bk/edit#heading=h.hpbsi2jnx2ku)
 
 ## Collaborate
 
