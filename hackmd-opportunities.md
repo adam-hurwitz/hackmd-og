@@ -32,7 +32,7 @@ Opportunities
 
 ### Visual Studio Code (VS Code)
 
-- Edit HackMD team notes in VS Code (Currently view-only) (P1)
+- Edit HackMD team notes in VS Code (Currently view-only) [#100](https://github.com/hackmdio/vscode-hackmd/issues/100) (P1)
 
 ## Version control systems (VCS)
 
