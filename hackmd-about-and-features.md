@@ -57,12 +57,12 @@ image: https://pbs.twimg.com/profile_banners/3540691454/1535710532/1500x500
 - [How to Use Template](https://hackmd.io/s/how-to-use-template)
     - [Boost Productivity with Templates](https://blog.hackmd.io/blog/2019/04/08/boost-productivity-with-templates)
 
-### Visual Studio Code (VsCode) integration
+### Visual Studio Code (VsCode)
 
 #### About
 
-- Use the same workflow while writing code.
-- Great for offline work.
+- HackMD integration with VSCode
+- Great for offline work and while working in other code bases.
 
 #### Setup
 
